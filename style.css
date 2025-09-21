@@ -792,7 +792,9 @@ width: 30vw;
         margin-top: 13px;
         font-size: 12px;
     }
-
+#fixed-image {
+        height: 300px; 
+    }
 }
 
 
@@ -982,6 +984,9 @@ height: 30vh;
     .footer-lower{
         font-size: 23px;
 
+    }
+    #fixed-image {
+        height: 300px; /* tablet ke liye */
     }
 
 }
@@ -1309,6 +1314,9 @@ width: 30vw;
         font-size: 25px;
 
     }
+    #fixed-image {
+        height: 300px; 
+    }
 
     }
 
@@ -1390,7 +1398,8 @@ height: 50vh;
  }
 
  #fixed-image{
-    height: 30vh;
+ 
+    height: 300px;
     width: 30vw;
     top: 50%;
 
@@ -1468,6 +1477,7 @@ height: 50vh;
         font-size: 23px;
 
     }
+   
 
     }
     
@@ -1486,5 +1496,8 @@ height: 50vh;
     .swiper-slide {
       width: 25%;
       height: 50vh;
+    }
+    #fixed-image {
+        height: 300px; 
     }
     }
