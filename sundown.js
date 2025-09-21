@@ -40,6 +40,10 @@ elems.forEach(function(e){
 
         
     })
+    e.addEventListener("click", function(){
+        let image=e.getAttribute("data-image")
+        fixed.style.backgroundImage=`url(${image})`
+    })
 })
 
 }
